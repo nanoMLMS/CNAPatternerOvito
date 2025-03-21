@@ -51,11 +51,31 @@ predefined_ids = {
     (
         (
             (np.int32(2), np.int32(0), np.int32(0)),
+            (np.int32(3), np.int32(0), np.int32(0)),
+            (np.int32(3), np.int32(1), np.int32(1)),
+            (np.int32(3), np.int32(2), np.int32(2)),
+            (np.int32(4), np.int32(2), np.int32(2)),
+        ),
+        (np.int64(2), np.int64(1), np.int64(2), np.int(1), np.int(1)),
+    ): 7,
+    (
+        (
+            (np.int32(2), np.int32(0), np.int32(0)),
             (np.int32(3), np.int32(1), np.int32(1)),
             (np.int32(4), np.int32(2), np.int32(1)),
         ),
         (np.int64(2), np.int64(4), np.int64(1)),
     ): 8,
+    (
+        (
+            (np.int32(3), np.int32(0), np.int32(0)),
+            (np.int32(3), np.int32(1), np.int32(1)),
+            (np.int32(4), np.int32(2), np.int32(1)),
+            (np.int32(4), np.int32(2), np.int32(2)),
+            
+        ),
+        (np.int64(2), np.int64(4), np.int64(2), np.int(2)),
+    ): 9,
     (
         (
             (np.int32(2), np.int32(1), np.int32(1)),
