@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "CNAPatterner"
-version = "0.2.2"
+version = "0.2.3"
 description = "A Modifier for Ovito To compute CNAp."
 keywords = ["ovito", "python-cna"]
 authors = [{name = "Giacomo Becatt", email = "giacomo.becatti@unimi.it"}]
