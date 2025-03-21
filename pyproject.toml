@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CNAPatterner"
+version = "0.1"
+description = "A Modifier for Ovito To compute CNAp."
+keywords = ["ovito", "python-cna"]
+authors = [{name = "Giacomo Becatt", email = "giacomo.becatti@unimi.it"}]
+maintainers = [{name = "Maintainer", email = "maintainer@organization.org"}]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+   "ovito >= 3.9.1",
+    "numpy"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
