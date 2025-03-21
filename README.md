@@ -28,3 +28,7 @@ To each known patter we assign an integer (also in the table) while patterns not
 ## How to use
 
 The computation of the CNA Patterns require the computation of the bond based CNA, the user thus need to either have a structure with bonds or to copmute the bonds using the **Create Bonds** modifier, then they have to apply the **Common Neighbour Analysis** modifier and only then can they apply the **CNAPatterner** modifier.
+
+In the figure below you can see an example with the modifiers applied in the correct order plus a clor coding to color atoms based on the CNAp of the individual particles.
+
+![Screenshot from 2025-03-21 14-56-25](https://github.com/user-attachments/assets/20f3b6df-7598-4f4c-b692-bd30343d0a96)
