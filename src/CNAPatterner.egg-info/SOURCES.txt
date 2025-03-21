@@ -1,8 +1,0 @@
-pyproject.toml
-src/CNAPatterner/__init__.py
-src/CNAPatterner.egg-info/PKG-INFO
-src/CNAPatterner.egg-info/SOURCES.txt
-src/CNAPatterner.egg-info/dependency_links.txt
-src/CNAPatterner.egg-info/entry_points.txt
-src/CNAPatterner.egg-info/requires.txt
-src/CNAPatterner.egg-info/top_level.txt

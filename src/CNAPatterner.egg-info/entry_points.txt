@@ -1,2 +1,0 @@
-[OVITO.Modifier]
-CNAPatterner = CNAPatterner:ComputeCNAPatterns
