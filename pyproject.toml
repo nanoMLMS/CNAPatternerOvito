@@ -3,15 +3,16 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project.entry-points.'OVITO.Modifier']
-"CNAPatterner" = "CNAPatterner:ComputeCNAPatterns"
+"CNA Patterner" = "CNAPatterner:ComputeCNAPatterns"
 
 [project]
 name = "CNAPatterner"
-version = "0.1"
+version = "2025.21_4"
 description = "A Modifier for Ovito To compute CNAp."
 keywords = ["ovito", "python-cna"]
 authors = [{name = "Giacomo Becatt", email = "giacomo.becatti@unimi.it"}]
-maintainers = [{name = "Maintainer", email = "maintainer@organization.org"}]
+maintainers = [{name = "Giacomo Becatt", email = "giacomo.becatti@unimi.it"}]
+
 license = {text = "MIT License"}
 readme = "README.md"
 requires-python = ">=3.7"
@@ -20,6 +21,8 @@ dependencies = [
     "numpy"
 ]
 
+[project.urls]
+repository = "https://github.com/nanoMLMS/CNAPatternerOvito/"
 
 [tool.setuptools.packages.find]
 where = ["src"]
