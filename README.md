@@ -24,3 +24,7 @@ To each known patter we assign an integer (also in the table) while patterns not
 | 14       | Five-fold vertex                                     |[(5, (322)), (1, (555))] |
 | 15       | (111) face                                           |[(6, (311)), (3, (421))] |
 | 16       | Twinning plane                                       |[(6, (421)), (6, (422))] |
+
+## How to use
+
+The computation of the CNA Patterns require the computation of the bond based CNA, the user thus need to either have a structure with bonds or to copmute the bonds using the **Create Bonds** modifier, then they have to apply the **Common Neighbour Analysis** modifier and only then can they apply the **CNAPatterner** modifier.
