@@ -56,7 +56,7 @@ predefined_ids = {
             (np.int32(3), np.int32(2), np.int32(2)),
             (np.int32(4), np.int32(2), np.int32(2)),
         ),
-        (np.int64(2), np.int64(1), np.int64(2), np.int(1), np.int(1)),
+        (np.int64(2), np.int64(1), np.int64(2), np.int64(1), np.int64(1)),
     ): 7,
     (
         (
@@ -74,7 +74,7 @@ predefined_ids = {
             (np.int32(4), np.int32(2), np.int32(2)),
             
         ),
-        (np.int64(2), np.int64(4), np.int64(2), np.int(2)),
+        (np.int64(2), np.int64(4), np.int64(2), np.int64(2)),
     ): 9,
     (
         (
