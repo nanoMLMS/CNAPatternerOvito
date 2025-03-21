@@ -127,7 +127,6 @@ class ComputeCNAPatterns(ModifierInterface):
             cna_indices = data.particles.bonds["CNA Indices"]
         except TypeError:
             print("You need to compute bond based CNA")
-            pass
         bond_enumerator = BondsEnumerator(data.particles.bonds)
         seen_cna = predefined_ids.copy()  # Copiamo i valori predefiniti
         counter = (
