@@ -143,6 +143,13 @@ predefined_ids = {
         ),
         (np.int64(4), np.int64(4), np.int64(2), np.int64(2)),
     ): 18,
+    (
+        (
+            (np.int32(3), np.int32(1), np.int32(1)),
+            (np.int32(4), np.int32(2), np.int32(1)),
+        ),
+        (np.int64(4), np.int64(7)),
+    ): 19,
 }
 
 edge_idx = [2, 6, 8, 10]
